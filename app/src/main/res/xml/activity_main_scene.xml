@@ -9,6 +9,8 @@
         motion:duration="7000"
         motion:motionInterpolator="@android:anim/bounce_interpolator"
         motion:autoTransition="animateToEnd">
+        <OnClick
+         motion:clickAction="jumpToStart"/><!--   we can also specify target Id-->
        <KeyFrameSet>
        </KeyFrameSet>
     </Transition>
