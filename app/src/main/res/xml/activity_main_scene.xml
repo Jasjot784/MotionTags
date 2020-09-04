@@ -9,8 +9,14 @@
         motion:duration="7000"
         motion:motionInterpolator="@android:anim/bounce_interpolator"
         motion:autoTransition="animateToEnd">
-        <OnClick
-         motion:clickAction="jumpToStart"/><!--   we can also specify target Id-->
+<!--        <OnClick-->
+<!--         motion:clickAction="jumpToStart"/>&lt;!&ndash;   we can also specify target Id&ndash;&gt;-->
+<!--        <OnSwipe/>-->
+<!--        <OnSwipe-->
+<!--           motion:dragDirection="dragUp"-->
+<!--            motion:touchAnchorId="@id/start"-->
+<!--            motion:onTouchUp="autoComplete"-->
+<!--            motion:touchAnchorSide="right"/>-->
        <KeyFrameSet>
        </KeyFrameSet>
     </Transition>
